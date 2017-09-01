@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="story_grey_line_height">0.8dip</dimen>
+
+    <!-- 主界面的Tab高度 -->
+    <dimen name="main_tab_height">52dip</dimen>
+
+    <!-- activity_padding -->
+    <dimen name="activity_vertical_padding">15dp</dimen>
+    <dimen name="activity_horizontal_padding">10dp</dimen>
+    <dimen name="listview_padding">8dp</dimen>
+    <!-- Tab Host -->
+    <!-- market_tab_view -->
+    <!-- 标图高度 -->
+    <!-- 对话框 -->
+    <!-- 字体大小 -->
+    <!-- 最小 -->
+    <dimen name="text_size_smallest">10sp</dimen>
+    <!-- 超小 -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <!-- 小 -->
+    <dimen name="text_size_small">14sp</dimen>
+    <!-- 偏小 -->
+    <dimen name="text_size_smedium">16sp</dimen>
+    <!--故事列表页的字体-->
+    <dimen name="text_size_middle">17sp</dimen>
+    <!-- 正常 -->
+    <dimen name="text_size_medium">18sp</dimen>
+    <!-- 大 -->
+    <dimen name="text_size_large">22sp</dimen>
+    <!-- 超大 -->
+    <dimen name="text_size_xlarge">24sp</dimen>
+    <dimen name="text_size_xxlarge">34sp</dimen>
+    <!-- larger -->
+    <dimen name="text_size_xxxlarge">44sp</dimen>
+
+    <dimen name="toast_margin_buttom">100dp</dimen>
+    <!-- 列表封面 -->
+    <dimen name="listitem_poster_width">80dp</dimen>
+    <dimen name="listitem_poster_height">80dp</dimen>
+    <dimen name="listitem_poster_bg_width">80dp</dimen>
+    <dimen name="listitem_poster_bg_height">86dp</dimen>
+    <!--  -->
+    <dimen name="margin_larger">24dp</dimen>
+    <!--  -->
+    <dimen name="play_controler_view_height">90dp</dimen>
+    <dimen name="play_controler_view_height_new">82dp</dimen>
+    <!--  -->
+    <dimen name="playing_control_view_height">140dip</dimen>
+    <dimen name="list_divider_height">0.7dp</dimen>
+    <dimen name="playing_poster_size">262dip</dimen>
+
+    <!-- 详情页故事信息的适配 -->
+    <dimen name="detail_poster_width">116dp</dimen>
+
+    <!-- titlebar -->
+    <dimen name="titlebar_item_left_width">33dp</dimen>
+
+    <!-- 4.9 story -->
+
+    <!-- 更多和个人中心等item块（非每个item）间距 -->
+    <dimen name="item_area_vertical_margin">10dp</dimen>
+
+    <!-- 自定义对话框圆角-->
+    <dimen name="my_alert_dialog_radius">8dp</dimen>
+
+    <!-- pocket/mine item -->
+    <dimen name="pocket_item_ll_padding">20dp</dimen>
+    <dimen name="pocket_item_text_marginTop">8dp</dimen>
+    <dimen name="mine_user_other_info_height">58dp</dimen>
+
+    <!-- square item -->
+    <dimen name="square_item_ll_height">70dp</dimen>
+    <dimen name="square_item_ll_padding">15dp</dimen>
+    <dimen name="square_item_text_marginLeft">15dp</dimen>
+    <dimen name="square_item_icon_width">42dp</dimen>
+
+    <!-- 口袋精灵 -->
+    <dimen name="fairy_item_img_width">40dp</dimen>
+    <dimen name="binded_fairy_item_height">54dp</dimen>
+    <dimen name="fairy_list_item_height">54dp</dimen>
+
+    <!-- 以下需要再整理 -->
+    <dimen name="chat_BottomBtnMargin">5dp</dimen>
+    <dimen name="chat_bottom_more_height">150dp</dimen>
+    <dimen name="chat_bottom_emotion_height">150dp</dimen>
+    <dimen name="chat_BottomBtnSize">30dp</dimen>
+
+    <dimen name="chat_bottom_blank">10dp</dimen>
+
+    <dimen name="bottom_dialog_btn_height">50dp</dimen>
+
+    <dimen name="send_article_text">16sp</dimen>
+    <dimen name="send_article_title">18sp</dimen>
+    <dimen name="sp14">16sp</dimen>
+    <dimen name="sp16">18sp</dimen>
+
+    <dimen name="ibookscan_kid_head_image_size">64dp</dimen>
+
+    <!-- titlebar -->
+    <dimen name="ibookscan_titlebar_item_left_width">33dp</dimen>
+    <dimen name="ibookscan_text_size_smallest">10dp</dimen>
+    <dimen name="ibookscan_scan_book_cover_size">90dp</dimen>
+
+    <!-- scan -->
+    <dimen name="ibookscan_scan_added_tips_height">34dp</dimen>
+    <dimen name="ibookscan_scan_confirm_dialog_width">250dp</dimen>
+    <dimen name="ibookscan_scan_confirm_dialog_height">225dp</dimen>
+    <dimen name="ibookscan_scan_book_layout_height">175dp</dimen>
+    <dimen name="ibookscan_scan_book_button_height">52dp</dimen>
+
+    <!-- home_page -->
+    <dimen name="ibookscan_scanner_tips_size">15dp</dimen>
+    <dimen name="ibookscan_bookstore_count_textsize">26dp</dimen>
+    <dimen name="ibookscan_bookstore_tips_textsize">15dp</dimen>
+
+    <!-- other bookstore -->
+    <dimen name="ibookscan_other_bookstore_baby_name">14dp</dimen>
+    <dimen name="ibookscan_other_bookstore_baby_age">13dp</dimen>
+    <dimen name="ibookscan_other_bookstore_book_number">26dp</dimen>
+    <dimen name="ibookscan_other_bookstore_book_suffix">14dp</dimen>
+
+    <!-- my bookstore -->
+    <dimen name="ibookscan_booklist_cover_size">85dp</dimen>
+    <dimen name="ibookscan_header_tab_layout_height">51dp</dimen>
+    <dimen name="ibookscan_header_tab_height">50dp</dimen>
+    <dimen name="ibookscan_kid_info_detail_padding">10dp</dimen>
+    <dimen name="ibookscan_kid_info_text_size_large">18dp</dimen>
+    <dimen name="ibookscan_kid_info_text_size_middle">14dp</dimen>
+    <dimen name="ibookscan_kid_info_text_size_small">13dp</dimen>
+    <dimen name="ibookscan_mypage_total_tips_height">43dp</dimen>
+    <dimen name="ibookscan_mypage_total_tips_text_size">13dp</dimen>
+    <dimen name="ibookscan_booklist_item_height">250dp</dimen>
+
+    <!-- userlist -->
+    <dimen name="ibookscan_user_list_baby_head_size">50dp</dimen>
+    <dimen name="ibookscan_user_list_ranking_bg_size">18dp</dimen>
+    <dimen name="ibookscan_user_list_ranking_size">25dp</dimen>
+    <dimen name="ibookscan_user_list_item_height">70dp</dimen>
+
+    <!-- 自定义对话框圆角 -->
+    <dimen name="ibookscan_my_alert_dialog_radius">8dp</dimen>
+
+    <!-- 标题字体大小 -->
+    <dimen name="ibookscan_all_title">25dip</dimen>
+    <dimen name="ibookscan_toolsbar_textSize">20dip</dimen>
+    <!-- 标图高度 -->
+    <dimen name="ibookscan_title_height">50dip</dimen>
+    <dimen name="ibookscan_toolsbar_height">55dip</dimen>
+    <!-- 对话框 -->
+    <dimen name="ibookscan_dialog_textSize_button">16dip</dimen>
+    <!-- 箭头与右边的距离 -->
+    <dimen name="ibookscan_marginRight_arrows">10dip</dimen>
+    <dimen name="ibookscan_personal_setting_line_height">50dip</dimen>
+    <dimen name="ibookscan_listitem_height">64dip</dimen>
+    <dimen name="ibookscan_list_divider_height">1.5dip</dimen>
+    <dimen name="ibookscan_listview_padding">8dp</dimen>
+
+
+    <!--<dimen name="titlebar_height">52dp</dimen>-->
+    <!--<dimen name="titlebar_item_width">48dp</dimen>-->
+    <!--<dimen name="titlebar_item_height">48dp</dimen>-->
+    <!--<dimen name="titlebar_item_padding">5dp</dimen>-->
+    <!--<dimen name="titlebar_title">22dp</dimen>-->
+    <!--<dimen name="titlebar_right">20dp</dimen>-->
+    <!--广场 插件的入口-->
+    <dimen name="square_plugin_item_horizontalSpacing_width">15dip</dimen>
+    <dimen name="topic_list_more_item_horizontalSpacing_width">6dip</dimen>
+    <dimen name="topic_list_more_item_horizontalSpacing_padding">5dip</dimen>
+</resources>

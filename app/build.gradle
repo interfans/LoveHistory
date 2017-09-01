@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.love.history"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "9.2.0831013"
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("apphistory.keystore")
+            storePassword "history123"
+            keyAlias "apphistory.keystore"
+            keyPassword "history123"
+        }
+
+        release {
+            storeFile file("apphistory.keystore")
+            storePassword "history123"
+            keyAlias "apphistory.keystore"
+            keyPassword "history123"
+        }
+    }
+
+    // 友盟多渠道打包
+    productFlavors {
+        /*flavor*/ beta_201508200001 {}
+    }
+
+    buildTypes {
+
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    "$project.rootDir/proguard-rules.pro"
+        }
+
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    "$project.rootDir/proguard-rules.pro"
+            signingConfig signingConfigs.release
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为ilisten_6.4.0617020_wandoujia.apk
+                        def fileName = "ihistory_${defaultConfig.versionName}_${variant.productFlavors[0].name.substring(0, variant.productFlavors[0].name.lastIndexOf("_"))}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:multidex:1.0.1'
+}

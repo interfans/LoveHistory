@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.love.history.app.main"
+    },
+    {
+      "uri": "lib.styles",
+      "pkg": "com.love.history.lib.style"
+    },
+    {
+      "uri": "lib.utils",
+      "pkg": "com.love.history.lib.utils"
+
+    }
+  ]
+}

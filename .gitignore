@@ -34,7 +34,7 @@ local.properties
 captures/
 /app/build/
 /projectFilesBackup
-app/smallLibs/
+#app/smallLibs/
 
 lib\.style/public\.txt
 
